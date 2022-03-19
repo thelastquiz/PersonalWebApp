@@ -2306,7 +2306,7 @@ textarea.form-control {
 .btn-grad {
   width: 200px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 300;
   color: #fff;
   cursor: pointer;
   margin: 20px;
@@ -2330,8 +2330,8 @@ textarea.form-control {
 }
 
 .btn-grad.color {
-  background-image: linear-gradient(to right, #fc6076, #ff9a44, #ef9d43, #e75516);
-  box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75);
+  background-image: linear-gradient(to right, #5c05ff, #f702a5, #ef9d43, #edfd05);
+  box-shadow: 0 4px 15px 0 rgba(224, 4, 253, 0.733);
 }
 
 @media screen and (prefers-reduced-motion: reduce) {
