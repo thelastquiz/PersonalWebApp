@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!--gotta put bootstrap in here then i think im gonna put this at a lower scale just to keep things moving faster-->
+<!--need to extend toolbar-- 
+
+<!--oh look at that stack overflow actually helped, well now that weve got bootstrap working-->
+
+<html>
+
+
+{% extends "toolbar.html" %}
+
+{% block content %}
+<head>
+    
+    <title>Home</title>
+</head>
+<body>
+    <center>
+        Alexandria Elizabeth Velazquez
+    </center>
+</h1>
+<center>
+    Computer Science Student and Aspiring Aeronautical Engineer
+</center>
+
+<center>
+    <img src="{{url_for('static', filename='pictures/me.jpg')}}" width="300" height="500" alt="me">
+</center>
+
+<center>
+<p>
+    I tutor children in computer science and robotics, I am an aspiring full stack developer who has a passion for aviation.<br> Currently a student at Purdue University West Lafayette planning to double<br> major in Computer Science and Aeronautical Engineering.
+</p>
+</center>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <button class="btn-grad color">Learn More</button>
+            <!-- route this button to a different page-->
+               <!--so make sure you are routed to your downloaded bootstrap and not the cloud bootsrap, aslo you have to go in and edit the css file if you want to make custom buttons-->
+            <!--ok so make a folder called static for images to go in apparently that part is really important-->
+               <!-- okay so amke sure u stop and restart the server when making changes to buttons-->
+        </div>
+    </div>
+</body>
+    {% endblock content %}
+    
+
+</html>
